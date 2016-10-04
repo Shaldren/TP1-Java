@@ -30,13 +30,6 @@ public void setMake(String make){
 	this.make = make;
 }
 
-public void reader(){
-	System.out.println("Marque et Modele : " + getMake() + " " + getModel() + "\n" 
-			+ "Annee : " + getYear() + "\n"
-			+ "Couleur : " + getColor() + "\n"
-			+ "Prix : " + getPrix() + "\n"
-			+ "Vitesse : " + getSpeed());
-}
 
 public int getYear() {
 	return year;
